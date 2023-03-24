@@ -27,7 +27,8 @@
 		038864AF26D3EF91002A4753 /* OfertaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038864AD26D3EF91002A4753 /* OfertaTableViewCell.swift */; };
 		038864B026D3EF91002A4753 /* OfertaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 038864AE26D3EF91002A4753 /* OfertaTableViewCell.xib */; };
 		038864B226D41A68002A4753 /* ViagemOfertaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 038864B126D41A68002A4753 /* ViagemOfertaViewModel.swift */; };
-		FEC44FA129CBEEA100F88C88 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC44FA029CBEEA100F88C88 /* DetalheViewController.swift */; };
+		FE50A9B329CC921B0085CDB6 /* DetalheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE50A9B129CC921B0085CDB6 /* DetalheViewController.swift */; };
+		FE50A9B429CC921B0085CDB6 /* DetalheViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE50A9B229CC921B0085CDB6 /* DetalheViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +54,8 @@
 		038864AD26D3EF91002A4753 /* OfertaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfertaTableViewCell.swift; sourceTree = "<group>"; };
 		038864AE26D3EF91002A4753 /* OfertaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfertaTableViewCell.xib; sourceTree = "<group>"; };
 		038864B126D41A68002A4753 /* ViagemOfertaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViagemOfertaViewModel.swift; sourceTree = "<group>"; };
-		FEC44FA029CBEEA100F88C88 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		FE50A9B129CC921B0085CDB6 /* DetalheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheViewController.swift; sourceTree = "<group>"; };
+		FE50A9B229CC921B0085CDB6 /* DetalheViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetalheViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,8 +167,8 @@
 			isa = PBXGroup;
 			children = (
 				0353E14525FD570200221138 /* ViewController.swift */,
-				FEC44FA029CBEEA100F88C88 /* DetalheViewController.swift */,
 				0353E14725FD570200221138 /* Main.storyboard */,
+				FE50A9B029CC91DE0085CDB6 /* DetalheViewController */,
 				03965CD52662D76600CEDD53 /* Header */,
 				03588E6E2663DEAC00BF0C82 /* Cells */,
 			);
@@ -190,6 +192,15 @@
 				038864B126D41A68002A4753 /* ViagemOfertaViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FE50A9B029CC91DE0085CDB6 /* DetalheViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FE50A9B129CC921B0085CDB6 /* DetalheViewController.swift */,
+				FE50A9B229CC921B0085CDB6 /* DetalheViewController.xib */,
+			);
+			path = DetalheViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE50A9B429CC921B0085CDB6 /* DetalheViewController.xib in Resources */,
 				0353E14E25FD570200221138 /* LaunchScreen.storyboard in Resources */,
 				03588E7C266439BF00BF0C82 /* server-response.json in Resources */,
 				0353E15B25FD636500221138 /* HomeTableViewHeader.xib in Resources */,
@@ -278,7 +290,7 @@
 				0353E14225FD570200221138 /* AppDelegate.swift in Sources */,
 				0353E14425FD570200221138 /* SceneDelegate.swift in Sources */,
 				03588E8C26643A9600BF0C82 /* ViagemViewModel.swift in Sources */,
-				FEC44FA129CBEEA100F88C88 /* DetalheViewController.swift in Sources */,
+				FE50A9B329CC921B0085CDB6 /* DetalheViewController.swift in Sources */,
 				03588E8F26643B6A00BF0C82 /* ViagemDestaqueViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
